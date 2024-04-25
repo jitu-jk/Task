@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: auto;
+        }
+
+        #super{
+            width: 100%;
+            
+        }
+        nav{
+            width: 100%;
+            display: flex;
+            /* border: 2px solid black; */
+            justify-content: space-between;
+
+
+        }
+        
+        nav ul{
+            display: flex;
+            list-style-type: none;
+            column-gap: 20px;
+        }
+
+        #first,#second{
+            width: 100%;
+            display: flex;
+            padding: 20px;
+            justify-content: space-evenly;
+            border-top: 2px solid black;
+
+        }
+        #first article{
+
+            width: 300px;
+            height: 200px;
+            text-align: center;
+            padding-top: 40px;
+            
+        }
+        .one{
+          
+            border: 2px solid black;
+
+        }
+
+        #second article {
+            width: 300px;
+            height: 200px;
+            border: 2px solid black;
+            text-align: center;
+            padding-top: 40px;
+        }
+
+        #third{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            border-top: 2px solid black;
+            padding: 30px;
+            
+          
+        }
+
+        #third article{
+
+            width: 350px;
+            height: 200px;
+            border: 2px solid black;
+            text-align: center;
+            padding-top: 50px;
+
+        }
+
+        footer{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            border-top: 2px solid black;
+
+        }
+        footer section{
+            width: 100%;
+            display: flex;
+
+        }
+        footer article{
+            width: 100%;
+            display: grid;
+            place-items: center;
+
+        }
+
+        .footer{
+            width: 23%;
+            display: flex;
+            flex-direction: column;
+
+        }
+        
+
+
+    </style>
+
+</head>
+<body>
+
+
+    <div id="super">
+
+        <nav>
+
+            <header>
+
+                <h1>She Share Vacation Rentals</h1>
+
+            </header>
+
+            <ul>
+                <li><button>Register</button></li>
+                <li><button>Login</button></li>
+
+            </ul>
+
+
+        </nav>
+
+        <section id="first">
+            <article class="one ">Share your room</article>
+            <article class="one">Rent a Room</article>
+            <article id="two">
+                <ul>
+                    <li><a href="">Welcome</a></li>
+                    <li><a href="">Safety</a></li>
+                    <li><a href="">Adventure</a></li>
+                    <li><a href="">Community</a></li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="second">
+
+            <article>Check in & check out</article>
+            <article>where search destination</article>
+            <article>who create profile</article>
+
+        </section>
+
+
+        <section id="third">
+
+            <article>Bangkok</article>
+            <article>France</article>
+            <article>London</article>
+            <article>Dubai</article>
+            <article>Singapore,</article>
+            <article> Kuala Lumpur</article>
+
+        </section>
+
+
+
+        <footer>
+            <section>
+            <article class="footer">
+
+                <h1>She Share</h1>
+                <a href="">About us</a>
+                <a href="">Careers</a>
+                <a href="">Contact us</a>
+                <a href="">Follow Us</a>
+
+
+            </article>
+            <article class="footer">
+                <h1>Support</h1>
+                <a href="">FAQs</a>
+                <a href="">Cancellation policy</a>
+               
+
+
+            </article>
+            <article class="footer">
+                <h1>Become a Host</h1>
+                <a href="">Hosting Resource</a>
+                <a href="">Shatre a room</a>
+                <a href="">Pets</a>
+                
+
+            </article>
+            <article class="footer">
+                <h1>Term & preview</h1>
+                <a href="">Term & condition</a>
+                <a href="">Privacy policy</a>
+               
+
+            </article>
+        </section>
+
+        <article>
+            <p>Copyright Reserved 2024 Jitesh Kumar</p>
+        </article>
+        </footer>
+
+
+
+
+
+    </div>
+
+    
+</body>
+</html>
