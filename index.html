@@ -12,6 +12,7 @@
             box-sizing: border-box;
             padding: 0;
             margin: auto;
+            
         }
 
         #super{
@@ -21,16 +22,28 @@
         nav{
             width: 100%;
             display: flex;
-            /* border: 2px solid black; */
+            background-color: rgb(118, 118, 194);
             justify-content: space-between;
+            padding: 10px;
 
 
         }
         
-        nav ul{
+        nav ul {
             display: flex;
             list-style-type: none;
             column-gap: 20px;
+             
+        }
+        nav ul li button{
+            display: flex;
+            align-items: center;
+            background-color: rgb(114, 200, 202);
+            font-size: large;
+            border-radius: 5px;
+           
+            
+            
         }
 
         #first,#second{
@@ -43,12 +56,20 @@
         }
         #first article{
 
-            width: 300px;
+            width: 310px;
             height: 200px;
             text-align: center;
-            padding-top: 40px;
-            
+            padding-bottom: 15%;
+               
         }
+        #first img{
+
+width: 300px;
+height: 200px;
+padding-bottom: 10px;
+
+   
+}
         .one{
           
             border: 2px solid black;
@@ -139,8 +160,8 @@
         </nav>
 
         <section id="first">
-            <article class="one ">Share your room</article>
-            <article class="one">Rent a Room</article>
+            <article class="one "><img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc2eUZ6m0f0IEHcJki4oMKrG1secDXOTsQa76FNdsEsQ&s">Share your room</article>
+            <article class="one"><img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc2eUZ6m0f0IEHcJki4oMKrG1secDXOTsQa76FNdsEsQ&s">Rent a Room</article>
             <article id="two">
                 <ul>
                     <li><a href="">Welcome</a></li>
